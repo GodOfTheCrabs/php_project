@@ -1,0 +1,50 @@
+.form-check-input {
+    border: 1px solid black;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    margin-right: 75px;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+.form-control-file {
+    margin-top: 10px;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+}
+.navigation-link:hover {
+    color:  #e4edff;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 18px !important;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #e4edff;
+}
+
+.btn:hover {
+    background-color: #C0C0C0;
+}
+.btn-border {
+    border: 1px solid black;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "composer/faker",
+    "description": "for me",
+    "autoload": {
+        "psr-4": {
+            "Composer\\Faker\\": "src/"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.20"
+    }
+}

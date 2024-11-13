@@ -1,0 +1,54 @@
+.event-post {
+    width: 860px;
+    height: 100vh;
+    margin: 50px auto;
+    font-weight: 500;
+}
+.event-img {
+    width: 860px;
+    height: 560px;
+    border-radius: 25px;
+}
+.event-post-description {
+    margin-top: 20px;
+}
+.event-post-date {
+    font-size: 16px;
+}
+.event-post-title {
+    font-size: 32px;
+}
+.event-post-text {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.event-post-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between
+}
+.btn-event {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #0057ff;
+    color: #e4edff;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.btn-event:hover {
+    opacity: 0.8;
+}
+
+.donate-link {
+    color: #e4edff;
+    text-decoration: none;
+}
+
+.alert-text {
+    text-align: center;
+    margin-bottom: 15px;
+}

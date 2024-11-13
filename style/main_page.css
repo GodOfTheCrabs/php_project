@@ -1,0 +1,107 @@
+.main-page-head {
+    margin-top: 60px;
+}
+.contact {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.icon-main-page {
+    width:50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.galerie {
+    width: 800px;
+    height: 500px;
+    border-radius: 35px;
+    background-image: url('../img/galerie/3.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.arrow {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+
+.main-page {
+    width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.img-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.img-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #0057ff;
+    background-color: #e4edff;
+    margin-right: 15px;
+}
+
+.active-circle {
+    background-color: #0057ff;
+}
+
+.description-head {
+    display: flex   ;
+}
+
+.description-text {
+    margin-top: 150px;
+    width: 420px;
+    height: 220px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.description-text:after {
+    content: "";
+    display: block;
+    width: 8px; 
+    height: 120px; 
+    background: linear-gradient(to bottom, #0057ff 50%, #fff500 50%);
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    right: 0; 
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold
+}
+
+.user-register {
+    color: green;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
